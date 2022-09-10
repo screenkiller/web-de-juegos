@@ -1,0 +1,46 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ font-family: 'Roboto' , sans-serif;
+ list-style: none;
+ text-decoration: none;
+ 
+}
+
+.color{
+    color: rebeccapurple;
+}
+
+.title{
+    font-size: 1.5rem;
+    line-height: 3;
+    padding-left: 2rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+
+    }
+
+
+
+.menu{
+    display: flex;
+    background-color: #222;
+    align-items: center;
+    width: 100vw;
+    
+      
+}
+
+.menu li a{
+    color: white;
+    padding: 30px;
+    display: block;
+
+
+}
+
+.menu li a:hover{
+    background-color: blueviolet;
+}
